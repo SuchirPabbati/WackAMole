@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newcafe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amongus"
+        android:text="60"
+        android:textColor="#FF0909"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/vent2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amongus"
+        android:text="Score: "
+        android:textColor="#FFCA2B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/vent3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vent5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toTopOf="@+id/vent4"
+        app:layout_constraintEnd_toStartOf="@+id/vent2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toTopOf="@+id/vent6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vent2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vent5"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vent5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vent8"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vent4"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toTopOf="@+id/vent5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vent5"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/vent9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="136dp"
+        android:layout_weight="0.3333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/vent8"
+        app:layout_constraintTop_toBottomOf="@+id/vent6"
+        app:srcCompat="@drawable/vent" />
+
+    <ImageView
+        android:id="@+id/sus1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent9"
+        app:layout_constraintEnd_toEndOf="@+id/vent9"
+        app:layout_constraintStart_toStartOf="@+id/vent9"
+        app:layout_constraintTop_toTopOf="@+id/vent9"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent8"
+        app:layout_constraintEnd_toEndOf="@+id/vent8"
+        app:layout_constraintStart_toStartOf="@+id/vent8"
+        app:layout_constraintTop_toTopOf="@+id/vent8"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent7"
+        app:layout_constraintEnd_toEndOf="@+id/vent7"
+        app:layout_constraintStart_toStartOf="@+id/vent7"
+        app:layout_constraintTop_toTopOf="@+id/vent7"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent6"
+        app:layout_constraintEnd_toEndOf="@+id/vent6"
+        app:layout_constraintStart_toStartOf="@+id/vent6"
+        app:layout_constraintTop_toTopOf="@+id/vent6"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent5"
+        app:layout_constraintEnd_toEndOf="@+id/vent5"
+        app:layout_constraintStart_toStartOf="@+id/vent5"
+        app:layout_constraintTop_toTopOf="@+id/vent5"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent4"
+        app:layout_constraintEnd_toEndOf="@+id/vent4"
+        app:layout_constraintStart_toStartOf="@+id/vent4"
+        app:layout_constraintTop_toTopOf="@+id/vent4"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent3"
+        app:layout_constraintEnd_toEndOf="@+id/vent3"
+        app:layout_constraintStart_toStartOf="@+id/vent3"
+        app:layout_constraintTop_toTopOf="@+id/vent3"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus8"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent2"
+        app:layout_constraintEnd_toEndOf="@+id/vent2"
+        app:layout_constraintStart_toStartOf="@+id/vent2"
+        app:layout_constraintTop_toTopOf="@+id/vent2"
+        app:srcCompat="@drawable/sus" />
+
+    <ImageView
+        android:id="@+id/sus9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vent1"
+        app:layout_constraintEnd_toEndOf="@+id/vent1"
+        app:layout_constraintStart_toStartOf="@+id/vent1"
+        app:layout_constraintTop_toTopOf="@+id/vent1"
+        app:srcCompat="@drawable/sus" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/amongus"
+        android:text="Restart"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/vent1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vent8"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
